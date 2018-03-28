@@ -1,0 +1,82 @@
+/*Styled Resume*/
+
+h1 {
+  text-align: center;
+  color:#4CBB17;
+  font-family: 'Lobster' , cursive;
+  font-size: 400%;
+}
+
+#top, #bottom, #left, #right {
+  background:#006400;
+  position:fixed;
+}
+
+  #left, #right {
+    top: 0; bottom: 0;
+    width:25px;
+  }
+  #left {left: 0; }
+  #right {right: 0; }
+
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 25px;
+  }
+    #top {top: 0}
+    #bottom {bottom: 0; }
+
+.column {
+  width: 500px;
+  margin: 4px auto 0;
+  padding-top: 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p {
+  color: green;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color:#043927;
+  font-family: 'Lobster' , cursive;
+  font-size: 150%;
+}
+
+a {
+  text-decoration: none;
+  color:#70823B;
+}
+
+header {
+  text-decoration: underline;
+}
+
+.orangeBar {
+  background-color:#50C878;
+}
+
+a:hover {
+  color: olive;
+}
+
+#table {
+  margin-right:auto;
+margin-left: 50px;
+}
+
+#address {
+  text-decoration: underline;
+}
+
+#email {
+  text-decoration: underline;
+}
