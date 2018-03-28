@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+}
+
+.box {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+}
+
+.a {
+  background-color: red;
+}
+
+body{
+  background-coor: red;
+}
+
+/* @media (max-width: 800px) {
+  .container {
+    -ms-flex: 50%
+    flex: 50%
+    max-width: 50%
+  }
+} */

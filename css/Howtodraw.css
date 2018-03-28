@@ -1,0 +1,110 @@
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#Step1 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float:left;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step2 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float:right;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step3 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float: left;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step4 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float: right;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step5 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float: left;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step6 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float: right;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step7 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float: left;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#Step8 {
+  font-size: 200;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+  float: right;
+  width: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+}

@@ -3,54 +3,67 @@
 <head>
   <title>Rachael Britton Resume</title>
   <meta charset="utf-8"/>
-  <meta name="author" content="Rachael B." />
-  <meta name="keywords" content="basic website" />
+  <meta name="author" content="Rachael B.">
+  <meta name="keywords" content="basic website">
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <!-- I want this to be pretty. -->
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
 
 <body>
   <header>
   <h1>Rachael Britton</h1>
-</header>
+  </header>
 
   <main>
-    <img src="Images/Photo of Rachael.jpg" alt="Photo of Rachael" width="300"/>
-    <p><strong>Rachael Britton</strong> is a senior at the University of Miami studying psychology. She is planning on attending Full Sail University upon graduation,
-      where she will pursue a degree in computer animation and visual effects. <strong>Using her understanding of psychology and computer animation/visual effects she aims to create visually powerful stories for all ages.</strong></p>
+      <figure class="item">
+        <img src="Images/PhotoofRachael.jpg" alt="PhotoofRachael" width="300">
 
-      <br>
+      <figcaption class="caption">Rachael Britton is a senior at the University of Miami studying psychology. She is planning on attending Full Sail University upon graduation, where she will pursue a degree in computer animation and visual effects. Using her understanding of psychology and computer animation/visual effects she aims to create visually powerful stories for all ages.
+    </figcaption>
+  </figure>
 
-      <h3>University of Miami</h3>
+      <h3><div class="orangeBar"><a href="https://welcome.miami.edu">University of Miami</a></div></h3>
+      <div class="column">
       <ul>
         <li>GPA: 4.0/4.0</li>
         <li>Mahoney College Council President 2017-2018</li>
-        <li>Peer Advising Liaison in the Psychology Department 2017-2018</li>
+        <li>Peer Advising Liaison in the Psychology Department 2017-2018
+        </li>
       </ul>
+    </div>
 
-        <ol>Relevant Coursework:
+        <h3><div class="orangeBar">Relevant Coursework:</div></h3>
+        <div class="column">
+        <ul>
           <li>Applied Behavioral Analysis</li>
           <li>Graphic Design</li>
           <li>Illustration</li>
           <li>Game Design</li>
           <li>Character Design</li>
-        </ol>
+        </ul>
+      </div>
 
-      <br>
-
-      <h3>Interests</h3>
+      <h3><div class="orangeBar">Interests</div></h3>
+      <div class="column">
       <ul>
-          <li>Digital Illustration</li> <a href="https://creatureartteacher.com">This is my favorite digital artist's website!</a>
+          <li>Digital Illustration <a href="https://creatureartteacher.com">This is my favorite digital artist's website!</a> </li>
           <li>Character Design</li>
           <li>Storytelling</li>
           <li>Making people laugh</li>
           <li>Reading</li>
           <li>Watching Netflix at the gym and being doubly productive</li>
       </ul>
+    </div>
 
-      <br>
-
-      <h3>Skills</h3>
+      <h3><div class="orangeBar">Skills</div></h3>
+      <div class="column">
       <ul>
           <li>Adobe Illustrator</li>
           <li>Adobe Photoshop</li>
@@ -59,27 +72,26 @@
           <li>Microsoft Office Suite</li>
           <li>Self deprecation. <a href="https://www.forbes.com/sites/kareanderson/2012/08/13/15-ways-to-accomplish-more-with-the-right-kind-of-humor/#729e5dc93b9b">Self-deprecating humor is awesome.</a></li>
       </ul>
-
+    </div>
     </main>
 
-    <br>
-
     <footer>
-        <h3>Contact Me</h3>
-        <table style="width:50%">
+        <h3><div class="orangeBar">Contact Me</div></h3>
+        <div id="table">
+        <table style="width:100%">
           <tr>
-            <th>Address</th>
-            <th>Email</th>
+            <th><div id="address">Address</div></th>
+            <th><div id="email">Email</div></th>
           </tr>
           <tr>
             <td>1101 Stanford Drive  Coral Gables, FL 33146</td>
             <td>reb40@miami.edu</td>
           </tr>
         </table>
+      </div>
 
         <br>
 
-        <address> This is my address code.</address>
     </footer>
 
   </body>
